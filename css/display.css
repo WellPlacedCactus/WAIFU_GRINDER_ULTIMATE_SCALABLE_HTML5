@@ -1,0 +1,25 @@
+
+.display {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.text {
+  z-index: 1000;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.text:hover {
+  font-size: 60px;
+}
+
+.text:active {
+  font-size: 55px;
+}

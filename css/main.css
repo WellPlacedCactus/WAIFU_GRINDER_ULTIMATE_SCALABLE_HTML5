@@ -1,0 +1,26 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: monospace;
+  font-size: 25px;
+  color: white;
+  transition: 0.25s;
+}
+
+img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.background {
+  z-index: -1000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(223,230,233);
+  background: radial-gradient(circle, rgba(223,230,233,1) 0%, rgba(162,155,254,1) 100%);
+}

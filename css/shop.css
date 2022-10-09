@@ -1,0 +1,45 @@
+
+.shop.off {
+  transform: translateX(-30vh);
+}
+
+.toggle-button {
+  position: absolute;
+  left: 31vh;
+  top: 1vh;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  color: #fd79a8;
+}
+
+.toggle-button:active {
+  color: #e84393;
+}
+
+.catalog {
+  position: absolute;
+  left: 0;
+  top: 1vh;
+  width: 30vh;
+  height: 99vh;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.catalog::-webkit-scrollbar {
+  display: none;
+}
+
+.item img {
+  width: 20vh;
+}
+
+.item img:hover {
+  width: 25vh;
+}
+
+.item img:active {
+  width: 24vh;
+}
